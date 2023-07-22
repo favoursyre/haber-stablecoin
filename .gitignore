@@ -1,0 +1,9 @@
+.env
+/artifacts
+/cache
+./node_modules
+/node_modules
+debug.ts
+./contracts_
+./test
+/typechain-types

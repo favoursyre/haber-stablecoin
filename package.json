@@ -1,0 +1,36 @@
+{
+  "name": "Kleinrock Incorporation",
+  "version": "1.0.0",
+  "description": "This handles all backend functionalities for Kleinrock Incorporation",
+  "scripts": {
+    "start": "node dist/server.js",
+    "dev": "nodemon src/server.ts",
+    "build": "tsc -p .",
+    "debug": "tsc debug.ts && node debug.js"
+  },
+  "author": "Favour Ndubuisi",
+  "license": "BSD-3-Clause",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^2.0.0",
+    "@types/chai": "^4.3.3",
+    "@types/express": "^4.17.14",
+    "@types/jsonwebtoken": "^8.5.9",
+    "@types/node": "^18.11.2",
+    "chai": "^4.3.6",
+    "hardhat": "^2.12.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.8.4"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@openzeppelin/contracts": "^4.8.1",
+    "@solidstate/contracts": "^0.0.54",
+    "crypto-js": "^4.1.1",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.7.2",
+    "validator": "^13.7.0"
+  }
+}
